@@ -1,0 +1,1366 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:pi-zero-proto-hatBB-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Pi Zero Proto HAT"
+Date "2015-12-01"
+Rev ""
+Comp "Black Electronics"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_02X20 P2
+U 1 1 565D87FC
+P 2400 2300
+F 0 "P2" H 2400 3350 50  0000 C CNN
+F 1 "CONN_02X20" V 2400 2300 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_2x20_mod" H 2400 1350 60  0001 C CNN
+F 3 "" H 2400 1350 60  0000 C CNN
+	1    2400 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X20 P1
+U 1 1 565D8840
+P 1550 2300
+F 0 "P1" H 1550 3350 50  0000 C CNN
+F 1 "CONN_02X20" V 1550 2300 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_2x20_mod" H 1550 1350 60  0001 C CNN
+F 3 "" H 1550 1350 60  0000 C CNN
+	1    1550 2300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 1350 2150 1350
+Wire Wire Line
+	1800 1450 2150 1450
+Wire Wire Line
+	1800 1550 2150 1550
+Wire Wire Line
+	1800 1650 2150 1650
+Wire Wire Line
+	1800 1750 2150 1750
+Wire Wire Line
+	1800 1850 2150 1850
+Wire Wire Line
+	1800 1950 2150 1950
+Wire Wire Line
+	1800 2050 2150 2050
+Wire Wire Line
+	1800 2150 2150 2150
+Wire Wire Line
+	2150 2250 1800 2250
+Wire Wire Line
+	2150 2350 1800 2350
+Wire Wire Line
+	2150 2450 1800 2450
+Wire Wire Line
+	2150 2550 1800 2550
+Wire Wire Line
+	2150 2650 1800 2650
+Wire Wire Line
+	2150 2750 1800 2750
+Wire Wire Line
+	2150 2850 1800 2850
+Wire Wire Line
+	2150 2950 1800 2950
+Wire Wire Line
+	2150 3050 1800 3050
+Wire Wire Line
+	1800 3150 2150 3150
+Wire Wire Line
+	1800 3250 2150 3250
+Wire Bus Line
+	1000 3250 1000 950 
+Wire Bus Line
+	1000 950  2950 950 
+Wire Bus Line
+	2950 950  2950 3350
+Entry Wire Line
+	1000 1250 1100 1350
+Entry Wire Line
+	1000 1350 1100 1450
+Entry Wire Line
+	1000 1450 1100 1550
+Entry Wire Line
+	1000 1550 1100 1650
+Entry Wire Line
+	1000 1650 1100 1750
+Entry Wire Line
+	1000 1750 1100 1850
+Entry Wire Line
+	1000 1850 1100 1950
+Entry Wire Line
+	1000 1950 1100 2050
+Entry Wire Line
+	1000 2050 1100 2150
+Entry Wire Line
+	1000 2150 1100 2250
+Entry Wire Line
+	1000 2250 1100 2350
+Entry Wire Line
+	1000 2350 1100 2450
+Entry Wire Line
+	1000 2450 1100 2550
+Entry Wire Line
+	1000 2550 1100 2650
+Entry Wire Line
+	1000 2650 1100 2750
+Entry Wire Line
+	1000 2750 1100 2850
+Entry Wire Line
+	1000 2850 1100 2950
+Entry Wire Line
+	1000 2950 1100 3050
+Entry Wire Line
+	1000 3050 1100 3150
+Entry Wire Line
+	1000 3150 1100 3250
+Entry Wire Line
+	2850 3150 2950 3250
+Entry Wire Line
+	2850 3050 2950 3150
+Entry Wire Line
+	2850 2950 2950 3050
+Entry Wire Line
+	2850 2850 2950 2950
+Entry Wire Line
+	2850 2750 2950 2850
+Entry Wire Line
+	2850 2650 2950 2750
+Entry Wire Line
+	2850 2550 2950 2650
+Entry Wire Line
+	2850 2450 2950 2550
+Entry Wire Line
+	2850 2350 2950 2450
+Entry Wire Line
+	2850 2250 2950 2350
+Entry Wire Line
+	2850 2150 2950 2250
+Entry Wire Line
+	2850 2050 2950 2150
+Entry Wire Line
+	2850 1950 2950 2050
+Entry Wire Line
+	2850 1850 2950 1950
+Entry Wire Line
+	2850 1750 2950 1850
+Entry Wire Line
+	2850 1650 2950 1750
+Entry Wire Line
+	2850 1550 2950 1650
+Entry Wire Line
+	2850 1450 2950 1550
+Entry Wire Line
+	2850 1350 2950 1450
+Entry Wire Line
+	2850 3250 2950 3350
+Wire Wire Line
+	1100 3250 1300 3250
+Wire Wire Line
+	1100 3150 1300 3150
+Wire Wire Line
+	1100 3050 1300 3050
+Wire Wire Line
+	1100 2950 1300 2950
+Wire Wire Line
+	1100 2850 1300 2850
+Wire Wire Line
+	1100 2750 1300 2750
+Wire Wire Line
+	1100 2650 1300 2650
+Wire Wire Line
+	1100 2550 1300 2550
+Wire Wire Line
+	1100 2450 1300 2450
+Wire Wire Line
+	1100 2350 1300 2350
+Wire Wire Line
+	1100 2250 1300 2250
+Wire Wire Line
+	1300 2150 1100 2150
+Wire Wire Line
+	1300 2050 1100 2050
+Wire Wire Line
+	1300 1950 1100 1950
+Wire Wire Line
+	1300 1850 1100 1850
+Wire Wire Line
+	1300 1750 1100 1750
+Wire Wire Line
+	1300 1650 1100 1650
+Wire Wire Line
+	1300 1550 1100 1550
+Wire Wire Line
+	1100 1450 1300 1450
+Wire Wire Line
+	1300 1350 1100 1350
+Wire Wire Line
+	2850 1350 2650 1350
+Wire Wire Line
+	2650 1450 2850 1450
+Wire Wire Line
+	2650 1550 2850 1550
+Wire Wire Line
+	2650 1650 2850 1650
+Wire Wire Line
+	2650 1750 2850 1750
+Wire Wire Line
+	2650 1850 2850 1850
+Wire Wire Line
+	2650 1950 2850 1950
+Wire Wire Line
+	2650 2050 2850 2050
+Wire Wire Line
+	2650 2150 2850 2150
+Wire Wire Line
+	2650 2250 2850 2250
+Wire Wire Line
+	2650 2350 2850 2350
+Wire Wire Line
+	2650 2450 2850 2450
+Wire Wire Line
+	2650 2550 2850 2550
+Wire Wire Line
+	2650 2650 2850 2650
+Wire Wire Line
+	2650 2750 2850 2750
+Wire Wire Line
+	2650 2850 2850 2850
+Wire Wire Line
+	2650 2950 2850 2950
+Wire Wire Line
+	2650 3050 2850 3050
+Wire Wire Line
+	2650 3150 2850 3150
+Wire Wire Line
+	2650 3250 2850 3250
+Text Label 1250 1350 0    60   ~ 0
+2
+Text Label 1250 1450 0    60   ~ 0
+4
+Text Label 1250 1550 0    60   ~ 0
+6
+Text Label 1250 1650 0    60   ~ 0
+8
+Text Label 1200 1750 0    60   ~ 0
+10
+Text Label 1200 1850 0    60   ~ 0
+12
+Text Label 1200 1950 0    60   ~ 0
+14
+Text Label 1200 2050 0    60   ~ 0
+16
+Text Label 1200 2150 0    60   ~ 0
+18
+Text Label 1200 2250 0    60   ~ 0
+20
+Text Label 1200 2350 0    60   ~ 0
+22
+Text Label 1200 2450 0    60   ~ 0
+24
+Text Label 1200 2550 0    60   ~ 0
+26
+Text Label 1200 2650 0    60   ~ 0
+28
+Text Label 1200 2750 0    60   ~ 0
+30
+Text Label 1200 2850 0    60   ~ 0
+32
+Text Label 1200 2950 0    60   ~ 0
+34
+Text Label 1200 3050 0    60   ~ 0
+36
+Text Label 1200 3150 0    60   ~ 0
+38
+Text Label 1200 3250 0    60   ~ 0
+40
+Text Label 2750 1350 0    60   ~ 0
+2
+Text Label 2750 1450 0    60   ~ 0
+4
+Text Label 2750 1550 0    60   ~ 0
+6
+Text Label 2750 1650 0    60   ~ 0
+8
+Text Label 2700 1750 0    60   ~ 0
+10
+Text Label 2700 1850 0    60   ~ 0
+12
+Text Label 2700 1950 0    60   ~ 0
+14
+Text Label 2700 2050 0    60   ~ 0
+16
+Text Label 2700 2150 0    60   ~ 0
+18
+Text Label 2700 2250 0    60   ~ 0
+20
+Text Label 2700 2350 0    60   ~ 0
+22
+Text Label 2700 2450 0    60   ~ 0
+24
+Text Label 2700 2550 0    60   ~ 0
+26
+Text Label 2700 2650 0    60   ~ 0
+28
+Text Label 2700 2750 0    60   ~ 0
+30
+Text Label 2700 2850 0    60   ~ 0
+32
+Text Label 2700 2950 0    60   ~ 0
+34
+Text Label 2700 3050 0    60   ~ 0
+36
+Text Label 2700 3150 0    60   ~ 0
+38
+Text Label 2700 3250 0    60   ~ 0
+40
+$Comp
+L CONN_01X04 P50
+U 1 1 56A21186
+P 7800 4100
+F 0 "P50" H 7800 4350 50  0000 C CNN
+F 1 "CONN_01X04" V 7900 4100 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x04_mod" H 7800 4100 60  0001 C CNN
+F 3 "" H 7800 4100 60  0000 C CNN
+	1    7800 4100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 P3
+U 1 1 56A2148F
+P 3850 3450
+F 0 "P3" H 3850 3650 50  0000 C CNN
+F 1 "CONN_01X03" V 3950 3450 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x03_mod" H 3850 3450 60  0001 C CNN
+F 3 "" H 3850 3450 60  0000 C CNN
+	1    3850 3450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4050 3350 4100 3350
+Wire Wire Line
+	4100 3350 4100 3550
+Wire Wire Line
+	4100 3550 4050 3550
+Wire Wire Line
+	4050 3450 4100 3450
+Connection ~ 4100 3450
+Wire Wire Line
+	8000 3950 8050 3950
+Wire Wire Line
+	8050 3950 8050 4250
+Wire Wire Line
+	8050 4250 8000 4250
+Wire Wire Line
+	8000 4150 8050 4150
+Connection ~ 8050 4150
+Wire Wire Line
+	8000 4050 8050 4050
+Connection ~ 8050 4050
+$Comp
+L CONN_01X04 P52
+U 1 1 56A22AD5
+P 8250 4100
+F 0 "P52" H 8250 4350 50  0000 C CNN
+F 1 "CONN_01X04" V 8350 4100 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x04_mod" H 8250 4100 60  0001 C CNN
+F 3 "" H 8250 4100 60  0000 C CNN
+	1    8250 4100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 3950 8500 3950
+Wire Wire Line
+	8500 3950 8500 4250
+Wire Wire Line
+	8500 4250 8450 4250
+Wire Wire Line
+	8450 4150 8500 4150
+Connection ~ 8500 4150
+Wire Wire Line
+	8450 4050 8500 4050
+Connection ~ 8500 4050
+$Comp
+L CONN_01X04 P49
+U 1 1 56A22BBA
+P 7800 3550
+F 0 "P49" H 7800 3800 50  0000 C CNN
+F 1 "CONN_01X04" V 7900 3550 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x04_mod" H 7800 3550 60  0001 C CNN
+F 3 "" H 7800 3550 60  0000 C CNN
+	1    7800 3550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 3400 8050 3400
+Wire Wire Line
+	8050 3400 8050 3700
+Wire Wire Line
+	8050 3700 8000 3700
+Wire Wire Line
+	8000 3600 8050 3600
+Connection ~ 8050 3600
+Wire Wire Line
+	8000 3500 8050 3500
+Connection ~ 8050 3500
+$Comp
+L CONN_01X04 P51
+U 1 1 56A22BC7
+P 8250 3550
+F 0 "P51" H 8250 3800 50  0000 C CNN
+F 1 "CONN_01X04" V 8350 3550 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x04_mod" H 8250 3550 60  0001 C CNN
+F 3 "" H 8250 3550 60  0000 C CNN
+	1    8250 3550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 3400 8500 3400
+Wire Wire Line
+	8500 3400 8500 3700
+Wire Wire Line
+	8500 3700 8450 3700
+Wire Wire Line
+	8450 3600 8500 3600
+Connection ~ 8500 3600
+Wire Wire Line
+	8450 3500 8500 3500
+Connection ~ 8500 3500
+$Comp
+L CONN_01X03 P9
+U 1 1 56A22C19
+P 4300 3450
+F 0 "P9" H 4300 3650 50  0000 C CNN
+F 1 "CONN_01X03" V 4400 3450 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x03_mod" H 4300 3450 60  0001 C CNN
+F 3 "" H 4300 3450 60  0000 C CNN
+	1    4300 3450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4500 3350 4550 3350
+Wire Wire Line
+	4550 3350 4550 3550
+Wire Wire Line
+	4550 3550 4500 3550
+Wire Wire Line
+	4500 3450 4550 3450
+Connection ~ 4550 3450
+$Comp
+L CONN_01X03 P4
+U 1 1 56A22CF2
+P 3850 4000
+F 0 "P4" H 3850 4200 50  0000 C CNN
+F 1 "CONN_01X03" V 3950 4000 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x03_mod" H 3850 4000 60  0001 C CNN
+F 3 "" H 3850 4000 60  0000 C CNN
+	1    3850 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4050 3900 4100 3900
+Wire Wire Line
+	4100 3900 4100 4100
+Wire Wire Line
+	4100 4100 4050 4100
+Wire Wire Line
+	4050 4000 4100 4000
+Connection ~ 4100 4000
+$Comp
+L CONN_01X03 P10
+U 1 1 56A22CFD
+P 4300 4000
+F 0 "P10" H 4300 4200 50  0000 C CNN
+F 1 "CONN_01X03" V 4400 4000 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x03_mod" H 4300 4000 60  0001 C CNN
+F 3 "" H 4300 4000 60  0000 C CNN
+	1    4300 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4500 3900 4550 3900
+Wire Wire Line
+	4550 3900 4550 4100
+Wire Wire Line
+	4550 4100 4500 4100
+Wire Wire Line
+	4500 4000 4550 4000
+Connection ~ 4550 4000
+$Comp
+L CONN_01X03 P15
+U 1 1 56A23024
+P 4750 3450
+F 0 "P15" H 4750 3650 50  0000 C CNN
+F 1 "CONN_01X03" V 4850 3450 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x03_mod" H 4750 3450 60  0001 C CNN
+F 3 "" H 4750 3450 60  0000 C CNN
+	1    4750 3450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4950 3350 5000 3350
+Wire Wire Line
+	5000 3350 5000 3550
+Wire Wire Line
+	5000 3550 4950 3550
+Wire Wire Line
+	4950 3450 5000 3450
+Connection ~ 5000 3450
+$Comp
+L CONN_01X03 P21
+U 1 1 56A2302F
+P 5200 3450
+F 0 "P21" H 5200 3650 50  0000 C CNN
+F 1 "CONN_01X03" V 5300 3450 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x03_mod" H 5200 3450 60  0001 C CNN
+F 3 "" H 5200 3450 60  0000 C CNN
+	1    5200 3450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 3350 5450 3350
+Wire Wire Line
+	5450 3350 5450 3550
+Wire Wire Line
+	5450 3550 5400 3550
+Wire Wire Line
+	5400 3450 5450 3450
+Connection ~ 5450 3450
+$Comp
+L CONN_01X03 P16
+U 1 1 56A2303A
+P 4750 4000
+F 0 "P16" H 4750 4200 50  0000 C CNN
+F 1 "CONN_01X03" V 4850 4000 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x03_mod" H 4750 4000 60  0001 C CNN
+F 3 "" H 4750 4000 60  0000 C CNN
+	1    4750 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4950 3900 5000 3900
+Wire Wire Line
+	5000 3900 5000 4100
+Wire Wire Line
+	5000 4100 4950 4100
+Wire Wire Line
+	4950 4000 5000 4000
+Connection ~ 5000 4000
+$Comp
+L CONN_01X03 P22
+U 1 1 56A23045
+P 5200 4000
+F 0 "P22" H 5200 4200 50  0000 C CNN
+F 1 "CONN_01X03" V 5300 4000 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x03_mod" H 5200 4000 60  0001 C CNN
+F 3 "" H 5200 4000 60  0000 C CNN
+	1    5200 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 3900 5450 3900
+Wire Wire Line
+	5450 3900 5450 4100
+Wire Wire Line
+	5450 4100 5400 4100
+Wire Wire Line
+	5400 4000 5450 4000
+Connection ~ 5450 4000
+$Comp
+L CONN_01X03 P27
+U 1 1 56A23181
+P 5700 3450
+F 0 "P27" H 5700 3650 50  0000 C CNN
+F 1 "CONN_01X03" V 5800 3450 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x03_mod" H 5700 3450 60  0001 C CNN
+F 3 "" H 5700 3450 60  0000 C CNN
+	1    5700 3450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5900 3350 5950 3350
+Wire Wire Line
+	5950 3350 5950 3550
+Wire Wire Line
+	5950 3550 5900 3550
+Wire Wire Line
+	5900 3450 5950 3450
+Connection ~ 5950 3450
+$Comp
+L CONN_01X03 P33
+U 1 1 56A2318C
+P 6150 3450
+F 0 "P33" H 6150 3650 50  0000 C CNN
+F 1 "CONN_01X03" V 6250 3450 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x03_mod" H 6150 3450 60  0001 C CNN
+F 3 "" H 6150 3450 60  0000 C CNN
+	1    6150 3450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6350 3350 6400 3350
+Wire Wire Line
+	6400 3350 6400 3550
+Wire Wire Line
+	6400 3550 6350 3550
+Wire Wire Line
+	6350 3450 6400 3450
+Connection ~ 6400 3450
+$Comp
+L CONN_01X03 P28
+U 1 1 56A23197
+P 5700 4000
+F 0 "P28" H 5700 4200 50  0000 C CNN
+F 1 "CONN_01X03" V 5800 4000 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x03_mod" H 5700 4000 60  0001 C CNN
+F 3 "" H 5700 4000 60  0000 C CNN
+	1    5700 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5900 3900 5950 3900
+Wire Wire Line
+	5950 3900 5950 4100
+Wire Wire Line
+	5950 4100 5900 4100
+Wire Wire Line
+	5900 4000 5950 4000
+Connection ~ 5950 4000
+$Comp
+L CONN_01X03 P34
+U 1 1 56A231A2
+P 6150 4000
+F 0 "P34" H 6150 4200 50  0000 C CNN
+F 1 "CONN_01X03" V 6250 4000 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x03_mod" H 6150 4000 60  0001 C CNN
+F 3 "" H 6150 4000 60  0000 C CNN
+	1    6150 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6350 3900 6400 3900
+Wire Wire Line
+	6400 3900 6400 4100
+Wire Wire Line
+	6400 4100 6350 4100
+Wire Wire Line
+	6350 4000 6400 4000
+Connection ~ 6400 4000
+$Comp
+L CONN_01X03 P39
+U 1 1 56A231AD
+P 6600 3450
+F 0 "P39" H 6600 3650 50  0000 C CNN
+F 1 "CONN_01X03" V 6700 3450 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x03_mod" H 6600 3450 60  0001 C CNN
+F 3 "" H 6600 3450 60  0000 C CNN
+	1    6600 3450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6800 3350 6850 3350
+Wire Wire Line
+	6850 3350 6850 3550
+Wire Wire Line
+	6850 3550 6800 3550
+Wire Wire Line
+	6800 3450 6850 3450
+Connection ~ 6850 3450
+$Comp
+L CONN_01X03 P44
+U 1 1 56A231B8
+P 7050 3450
+F 0 "P44" H 7050 3650 50  0000 C CNN
+F 1 "CONN_01X03" V 7150 3450 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x03_mod" H 7050 3450 60  0001 C CNN
+F 3 "" H 7050 3450 60  0000 C CNN
+	1    7050 3450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7250 3350 7300 3350
+Wire Wire Line
+	7300 3350 7300 3550
+Wire Wire Line
+	7300 3550 7250 3550
+Wire Wire Line
+	7250 3450 7300 3450
+Connection ~ 7300 3450
+$Comp
+L CONN_01X03 P40
+U 1 1 56A231C3
+P 6600 4000
+F 0 "P40" H 6600 4200 50  0000 C CNN
+F 1 "CONN_01X03" V 6700 4000 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x03_mod" H 6600 4000 60  0001 C CNN
+F 3 "" H 6600 4000 60  0000 C CNN
+	1    6600 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6800 3900 6850 3900
+Wire Wire Line
+	6850 3900 6850 4100
+Wire Wire Line
+	6850 4100 6800 4100
+Wire Wire Line
+	6800 4000 6850 4000
+Connection ~ 6850 4000
+$Comp
+L CONN_01X03 P45
+U 1 1 56A231CE
+P 7050 4000
+F 0 "P45" H 7050 4200 50  0000 C CNN
+F 1 "CONN_01X03" V 7150 4000 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x03_mod" H 7050 4000 60  0001 C CNN
+F 3 "" H 7050 4000 60  0000 C CNN
+	1    7050 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7250 3900 7300 3900
+Wire Wire Line
+	7300 3900 7300 4100
+Wire Wire Line
+	7300 4100 7250 4100
+Wire Wire Line
+	7250 4000 7300 4000
+Connection ~ 7300 4000
+$Comp
+L CONN_01X03 P5
+U 1 1 56A234D5
+P 3850 4550
+F 0 "P5" H 3850 4750 50  0000 C CNN
+F 1 "CONN_01X03" V 3950 4550 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x03_mod" H 3850 4550 60  0001 C CNN
+F 3 "" H 3850 4550 60  0000 C CNN
+	1    3850 4550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4050 4450 4100 4450
+Wire Wire Line
+	4100 4450 4100 4650
+Wire Wire Line
+	4100 4650 4050 4650
+Wire Wire Line
+	4050 4550 4100 4550
+Connection ~ 4100 4550
+$Comp
+L CONN_01X03 P11
+U 1 1 56A234E0
+P 4300 4550
+F 0 "P11" H 4300 4750 50  0000 C CNN
+F 1 "CONN_01X03" V 4400 4550 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x03_mod" H 4300 4550 60  0001 C CNN
+F 3 "" H 4300 4550 60  0000 C CNN
+	1    4300 4550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4500 4450 4550 4450
+Wire Wire Line
+	4550 4450 4550 4650
+Wire Wire Line
+	4550 4650 4500 4650
+Wire Wire Line
+	4500 4550 4550 4550
+Connection ~ 4550 4550
+$Comp
+L CONN_01X03 P6
+U 1 1 56A234EB
+P 3850 5100
+F 0 "P6" H 3850 5300 50  0000 C CNN
+F 1 "CONN_01X03" V 3950 5100 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x03_mod" H 3850 5100 60  0001 C CNN
+F 3 "" H 3850 5100 60  0000 C CNN
+	1    3850 5100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4050 5000 4100 5000
+Wire Wire Line
+	4100 5000 4100 5200
+Wire Wire Line
+	4100 5200 4050 5200
+Wire Wire Line
+	4050 5100 4100 5100
+Connection ~ 4100 5100
+$Comp
+L CONN_01X03 P12
+U 1 1 56A234F6
+P 4300 5100
+F 0 "P12" H 4300 5300 50  0000 C CNN
+F 1 "CONN_01X03" V 4400 5100 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x03_mod" H 4300 5100 60  0001 C CNN
+F 3 "" H 4300 5100 60  0000 C CNN
+	1    4300 5100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4500 5000 4550 5000
+Wire Wire Line
+	4550 5000 4550 5200
+Wire Wire Line
+	4550 5200 4500 5200
+Wire Wire Line
+	4500 5100 4550 5100
+Connection ~ 4550 5100
+$Comp
+L CONN_01X03 P17
+U 1 1 56A23501
+P 4750 4550
+F 0 "P17" H 4750 4750 50  0000 C CNN
+F 1 "CONN_01X03" V 4850 4550 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x03_mod" H 4750 4550 60  0001 C CNN
+F 3 "" H 4750 4550 60  0000 C CNN
+	1    4750 4550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4950 4450 5000 4450
+Wire Wire Line
+	5000 4450 5000 4650
+Wire Wire Line
+	5000 4650 4950 4650
+Wire Wire Line
+	4950 4550 5000 4550
+Connection ~ 5000 4550
+$Comp
+L CONN_01X03 P23
+U 1 1 56A2350C
+P 5200 4550
+F 0 "P23" H 5200 4750 50  0000 C CNN
+F 1 "CONN_01X03" V 5300 4550 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x03_mod" H 5200 4550 60  0001 C CNN
+F 3 "" H 5200 4550 60  0000 C CNN
+	1    5200 4550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 4450 5450 4450
+Wire Wire Line
+	5450 4450 5450 4650
+Wire Wire Line
+	5450 4650 5400 4650
+Wire Wire Line
+	5400 4550 5450 4550
+Connection ~ 5450 4550
+$Comp
+L CONN_01X03 P18
+U 1 1 56A23517
+P 4750 5100
+F 0 "P18" H 4750 5300 50  0000 C CNN
+F 1 "CONN_01X03" V 4850 5100 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x03_mod" H 4750 5100 60  0001 C CNN
+F 3 "" H 4750 5100 60  0000 C CNN
+	1    4750 5100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4950 5000 5000 5000
+Wire Wire Line
+	5000 5000 5000 5200
+Wire Wire Line
+	5000 5200 4950 5200
+Wire Wire Line
+	4950 5100 5000 5100
+Connection ~ 5000 5100
+$Comp
+L CONN_01X03 P24
+U 1 1 56A23522
+P 5200 5100
+F 0 "P24" H 5200 5300 50  0000 C CNN
+F 1 "CONN_01X03" V 5300 5100 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x03_mod" H 5200 5100 60  0001 C CNN
+F 3 "" H 5200 5100 60  0000 C CNN
+	1    5200 5100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 5000 5450 5000
+Wire Wire Line
+	5450 5000 5450 5200
+Wire Wire Line
+	5450 5200 5400 5200
+Wire Wire Line
+	5400 5100 5450 5100
+Connection ~ 5450 5100
+$Comp
+L CONN_01X03 P29
+U 1 1 56A2352D
+P 5700 4550
+F 0 "P29" H 5700 4750 50  0000 C CNN
+F 1 "CONN_01X03" V 5800 4550 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x03_mod" H 5700 4550 60  0001 C CNN
+F 3 "" H 5700 4550 60  0000 C CNN
+	1    5700 4550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5900 4450 5950 4450
+Wire Wire Line
+	5950 4450 5950 4650
+Wire Wire Line
+	5950 4650 5900 4650
+Wire Wire Line
+	5900 4550 5950 4550
+Connection ~ 5950 4550
+$Comp
+L CONN_01X03 P35
+U 1 1 56A23538
+P 6150 4550
+F 0 "P35" H 6150 4750 50  0000 C CNN
+F 1 "CONN_01X03" V 6250 4550 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x03_mod" H 6150 4550 60  0001 C CNN
+F 3 "" H 6150 4550 60  0000 C CNN
+	1    6150 4550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6350 4450 6400 4450
+Wire Wire Line
+	6400 4450 6400 4650
+Wire Wire Line
+	6400 4650 6350 4650
+Wire Wire Line
+	6350 4550 6400 4550
+Connection ~ 6400 4550
+$Comp
+L CONN_01X03 P30
+U 1 1 56A23543
+P 5700 5100
+F 0 "P30" H 5700 5300 50  0000 C CNN
+F 1 "CONN_01X03" V 5800 5100 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x03_mod" H 5700 5100 60  0001 C CNN
+F 3 "" H 5700 5100 60  0000 C CNN
+	1    5700 5100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5900 5000 5950 5000
+Wire Wire Line
+	5950 5000 5950 5200
+Wire Wire Line
+	5950 5200 5900 5200
+Wire Wire Line
+	5900 5100 5950 5100
+Connection ~ 5950 5100
+$Comp
+L CONN_01X03 P36
+U 1 1 56A2354E
+P 6150 5100
+F 0 "P36" H 6150 5300 50  0000 C CNN
+F 1 "CONN_01X03" V 6250 5100 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x03_mod" H 6150 5100 60  0001 C CNN
+F 3 "" H 6150 5100 60  0000 C CNN
+	1    6150 5100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6350 5000 6400 5000
+Wire Wire Line
+	6400 5000 6400 5200
+Wire Wire Line
+	6400 5200 6350 5200
+Wire Wire Line
+	6350 5100 6400 5100
+Connection ~ 6400 5100
+$Comp
+L CONN_01X03 P41
+U 1 1 56A23559
+P 6600 4550
+F 0 "P41" H 6600 4750 50  0000 C CNN
+F 1 "CONN_01X03" V 6700 4550 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x03_mod" H 6600 4550 60  0001 C CNN
+F 3 "" H 6600 4550 60  0000 C CNN
+	1    6600 4550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6800 4450 6850 4450
+Wire Wire Line
+	6850 4450 6850 4650
+Wire Wire Line
+	6850 4650 6800 4650
+Wire Wire Line
+	6800 4550 6850 4550
+Connection ~ 6850 4550
+$Comp
+L CONN_01X03 P46
+U 1 1 56A23564
+P 7050 4550
+F 0 "P46" H 7050 4750 50  0000 C CNN
+F 1 "CONN_01X03" V 7150 4550 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x03_mod" H 7050 4550 60  0001 C CNN
+F 3 "" H 7050 4550 60  0000 C CNN
+	1    7050 4550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7250 4450 7300 4450
+Wire Wire Line
+	7300 4450 7300 4650
+Wire Wire Line
+	7300 4650 7250 4650
+Wire Wire Line
+	7250 4550 7300 4550
+Connection ~ 7300 4550
+$Comp
+L CONN_01X03 P42
+U 1 1 56A2356F
+P 6600 5100
+F 0 "P42" H 6600 5300 50  0000 C CNN
+F 1 "CONN_01X03" V 6700 5100 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x03_mod" H 6600 5100 60  0001 C CNN
+F 3 "" H 6600 5100 60  0000 C CNN
+	1    6600 5100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6800 5000 6850 5000
+Wire Wire Line
+	6850 5000 6850 5200
+Wire Wire Line
+	6850 5200 6800 5200
+Wire Wire Line
+	6800 5100 6850 5100
+Connection ~ 6850 5100
+$Comp
+L CONN_01X03 P47
+U 1 1 56A2357A
+P 7050 5100
+F 0 "P47" H 7050 5300 50  0000 C CNN
+F 1 "CONN_01X03" V 7150 5100 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x03_mod" H 7050 5100 60  0001 C CNN
+F 3 "" H 7050 5100 60  0000 C CNN
+	1    7050 5100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7250 5000 7300 5000
+Wire Wire Line
+	7300 5000 7300 5200
+Wire Wire Line
+	7300 5200 7250 5200
+Wire Wire Line
+	7250 5100 7300 5100
+Connection ~ 7300 5100
+$Comp
+L CONN_01X03 P7
+U 1 1 56A24957
+P 3850 5650
+F 0 "P7" H 3850 5850 50  0000 C CNN
+F 1 "CONN_01X03" V 3950 5650 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x03_mod" H 3850 5650 60  0001 C CNN
+F 3 "" H 3850 5650 60  0000 C CNN
+	1    3850 5650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4050 5550 4100 5550
+Wire Wire Line
+	4100 5550 4100 5750
+Wire Wire Line
+	4100 5750 4050 5750
+Wire Wire Line
+	4050 5650 4100 5650
+Connection ~ 4100 5650
+$Comp
+L CONN_01X03 P13
+U 1 1 56A24962
+P 4300 5650
+F 0 "P13" H 4300 5850 50  0000 C CNN
+F 1 "CONN_01X03" V 4400 5650 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x03_mod" H 4300 5650 60  0001 C CNN
+F 3 "" H 4300 5650 60  0000 C CNN
+	1    4300 5650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4500 5550 4550 5550
+Wire Wire Line
+	4550 5550 4550 5750
+Wire Wire Line
+	4550 5750 4500 5750
+Wire Wire Line
+	4500 5650 4550 5650
+Connection ~ 4550 5650
+$Comp
+L CONN_01X03 P8
+U 1 1 56A2496D
+P 3850 6200
+F 0 "P8" H 3850 6400 50  0000 C CNN
+F 1 "CONN_01X03" V 3950 6200 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x03_mod" H 3850 6200 60  0001 C CNN
+F 3 "" H 3850 6200 60  0000 C CNN
+	1    3850 6200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4050 6100 4100 6100
+Wire Wire Line
+	4100 6100 4100 6300
+Wire Wire Line
+	4100 6300 4050 6300
+Wire Wire Line
+	4050 6200 4100 6200
+Connection ~ 4100 6200
+$Comp
+L CONN_01X03 P14
+U 1 1 56A24978
+P 4300 6200
+F 0 "P14" H 4300 6400 50  0000 C CNN
+F 1 "CONN_01X03" V 4400 6200 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x03_mod" H 4300 6200 60  0001 C CNN
+F 3 "" H 4300 6200 60  0000 C CNN
+	1    4300 6200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4500 6100 4550 6100
+Wire Wire Line
+	4550 6100 4550 6300
+Wire Wire Line
+	4550 6300 4500 6300
+Wire Wire Line
+	4500 6200 4550 6200
+Connection ~ 4550 6200
+$Comp
+L CONN_01X03 P19
+U 1 1 56A24983
+P 4750 5650
+F 0 "P19" H 4750 5850 50  0000 C CNN
+F 1 "CONN_01X03" V 4850 5650 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x03_mod" H 4750 5650 60  0001 C CNN
+F 3 "" H 4750 5650 60  0000 C CNN
+	1    4750 5650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4950 5550 5000 5550
+Wire Wire Line
+	5000 5550 5000 5750
+Wire Wire Line
+	5000 5750 4950 5750
+Wire Wire Line
+	4950 5650 5000 5650
+Connection ~ 5000 5650
+$Comp
+L CONN_01X03 P25
+U 1 1 56A2498E
+P 5200 5650
+F 0 "P25" H 5200 5850 50  0000 C CNN
+F 1 "CONN_01X03" V 5300 5650 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x03_mod" H 5200 5650 60  0001 C CNN
+F 3 "" H 5200 5650 60  0000 C CNN
+	1    5200 5650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 5550 5450 5550
+Wire Wire Line
+	5450 5550 5450 5750
+Wire Wire Line
+	5450 5750 5400 5750
+Wire Wire Line
+	5400 5650 5450 5650
+Connection ~ 5450 5650
+$Comp
+L CONN_01X03 P20
+U 1 1 56A24999
+P 4750 6200
+F 0 "P20" H 4750 6400 50  0000 C CNN
+F 1 "CONN_01X03" V 4850 6200 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x03_mod" H 4750 6200 60  0001 C CNN
+F 3 "" H 4750 6200 60  0000 C CNN
+	1    4750 6200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4950 6100 5000 6100
+Wire Wire Line
+	5000 6100 5000 6300
+Wire Wire Line
+	5000 6300 4950 6300
+Wire Wire Line
+	4950 6200 5000 6200
+Connection ~ 5000 6200
+$Comp
+L CONN_01X03 P26
+U 1 1 56A249A4
+P 5200 6200
+F 0 "P26" H 5200 6400 50  0000 C CNN
+F 1 "CONN_01X03" V 5300 6200 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x03_mod" H 5200 6200 60  0001 C CNN
+F 3 "" H 5200 6200 60  0000 C CNN
+	1    5200 6200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 6100 5450 6100
+Wire Wire Line
+	5450 6100 5450 6300
+Wire Wire Line
+	5450 6300 5400 6300
+Wire Wire Line
+	5400 6200 5450 6200
+Connection ~ 5450 6200
+$Comp
+L CONN_01X03 P31
+U 1 1 56A249AF
+P 5700 5650
+F 0 "P31" H 5700 5850 50  0000 C CNN
+F 1 "CONN_01X03" V 5800 5650 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x03_mod" H 5700 5650 60  0001 C CNN
+F 3 "" H 5700 5650 60  0000 C CNN
+	1    5700 5650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5900 5550 5950 5550
+Wire Wire Line
+	5950 5550 5950 5750
+Wire Wire Line
+	5950 5750 5900 5750
+Wire Wire Line
+	5900 5650 5950 5650
+Connection ~ 5950 5650
+$Comp
+L CONN_01X03 P37
+U 1 1 56A249BA
+P 6150 5650
+F 0 "P37" H 6150 5850 50  0000 C CNN
+F 1 "CONN_01X03" V 6250 5650 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x03_mod" H 6150 5650 60  0001 C CNN
+F 3 "" H 6150 5650 60  0000 C CNN
+	1    6150 5650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6350 5550 6400 5550
+Wire Wire Line
+	6400 5550 6400 5750
+Wire Wire Line
+	6400 5750 6350 5750
+Wire Wire Line
+	6350 5650 6400 5650
+Connection ~ 6400 5650
+$Comp
+L CONN_01X03 P32
+U 1 1 56A249C5
+P 5700 6200
+F 0 "P32" H 5700 6400 50  0000 C CNN
+F 1 "CONN_01X03" V 5800 6200 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x03_mod" H 5700 6200 60  0001 C CNN
+F 3 "" H 5700 6200 60  0000 C CNN
+	1    5700 6200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5900 6100 5950 6100
+Wire Wire Line
+	5950 6100 5950 6300
+Wire Wire Line
+	5950 6300 5900 6300
+Wire Wire Line
+	5900 6200 5950 6200
+Connection ~ 5950 6200
+$Comp
+L CONN_01X03 P38
+U 1 1 56A249D0
+P 6150 6200
+F 0 "P38" H 6150 6400 50  0000 C CNN
+F 1 "CONN_01X03" V 6250 6200 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x03_mod" H 6150 6200 60  0001 C CNN
+F 3 "" H 6150 6200 60  0000 C CNN
+	1    6150 6200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6350 6100 6400 6100
+Wire Wire Line
+	6400 6100 6400 6300
+Wire Wire Line
+	6400 6300 6350 6300
+Wire Wire Line
+	6350 6200 6400 6200
+Connection ~ 6400 6200
+$Comp
+L CONN_01X03 P43
+U 1 1 56A249DB
+P 6600 5650
+F 0 "P43" H 6600 5850 50  0000 C CNN
+F 1 "CONN_01X03" V 6700 5650 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x03_mod" H 6600 5650 60  0001 C CNN
+F 3 "" H 6600 5650 60  0000 C CNN
+	1    6600 5650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6800 5550 6850 5550
+Wire Wire Line
+	6850 5550 6850 5750
+Wire Wire Line
+	6850 5750 6800 5750
+Wire Wire Line
+	6800 5650 6850 5650
+Connection ~ 6850 5650
+$Comp
+L CONN_01X03 P48
+U 1 1 56A249E6
+P 7050 5650
+F 0 "P48" H 7050 5850 50  0000 C CNN
+F 1 "CONN_01X03" V 7150 5650 50  0000 C CNN
+F 2 "terminal:Pin_Header_Straight_1x03_mod" H 7050 5650 60  0001 C CNN
+F 3 "" H 7050 5650 60  0000 C CNN
+	1    7050 5650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7250 5550 7300 5550
+Wire Wire Line
+	7300 5550 7300 5750
+Wire Wire Line
+	7300 5750 7250 5750
+Wire Wire Line
+	7250 5650 7300 5650
+Connection ~ 7300 5650
+$EndSCHEMATC
